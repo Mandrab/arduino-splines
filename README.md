@@ -1,14 +1,13 @@
-Arduino Splines
-===============
+# Arduino Splines
 
 This is a simple library for differnent types of 1-D Splines, written
 for the arduino environment.
 
-Usage
----------------
-Checkout the code
+## Usage
 
-    git clone git://github.com/kerinin/arduino-splines.git ~/sketchbook/libraries/
+Add a dependency to the code in your `lib` directory
+
+    git submodule add https://github.com/Mandrab/arduino-splines.git
 
 Add the library header to your code
 
@@ -61,4 +60,6 @@ and _setDegree()_ functions.
 
     mySpline.value(5.5);      // => 1.5
 
+## Credits
 
+This repo is a corrected version (fork) of the one developed by [kerinin](https://github.com/kerinin)
